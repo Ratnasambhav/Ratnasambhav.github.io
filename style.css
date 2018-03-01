@@ -1,13 +1,8 @@
 /* fonts */
 
 @font-face {
-  font-family: Roboto Mono;
-  src: url(./fonts/Roboto_Mono/RobotoMono-Regular.ttf);
-}
-
-@font-face {
-  font-family: Roboto Slab Regular;
-  src: url(./fonts/Roboto_Slab/RobotoSlab-Regular.ttf);
+  font-family: Roboto Slab Thin;
+  src: url(./fonts/Roboto_Slab/RobotoSlab-Thin.ttf);
 }
 
 @font-face {
@@ -16,8 +11,8 @@
 }
 
 @font-face {
-  font-family: Roboto Slab Light;
-  src: url(./fonts/Roboto_Slab/RobotoSlab-Light.ttf);
+  font-family: Roboto Light;
+  src: url(./fonts/Roboto/Roboto-Light.ttf);
 }
 
 body {
@@ -26,7 +21,6 @@ body {
 }
 
 nav {
-  font-family: Roboto Slab Regular;
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
@@ -34,12 +28,12 @@ nav {
 }
 
 nav .logo {
-  font-family: Roboto Mono;
+  font-family: Roboto Slab Bold;
 }
 
 main {
   display: grid;
-  font-family: Roboto Slab Light;
+  font-family: Roboto Light;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -61,13 +55,8 @@ main {
   box-shadow: inset 0 -2px #FDD835;
 }
 
-.intro__skills {
-  border-bottom: 1px solid #FDD835;
-  box-shadow: inset 0 -2px #FDD835;
-}
-
 .skills {
-  font-family: Roboto Slab Light;
+  font-family: Roboto Light;
   font-size: 1.5rem;
   line-height: 2rem;
   margin: 25px 20vw;
@@ -79,7 +68,7 @@ main {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 40px 0;
-  font-family: Roboto Slab Regular;
+  font-family: Roboto Slab Bold;
   margin: 25px 20vw;
   display: grid;
   grid-gap: 50px;
@@ -118,7 +107,7 @@ main {
 .project__lang {
   font-size: 1em;
   margin-top: 10px;
-  font-family: Roboto Slab Light;
+  font-family: Roboto Light;
 }
 
 .project__btn button {
@@ -126,7 +115,7 @@ main {
   padding: 5px;
   border-radius: 5px;
   background: none;
-  font-family: Roboto Slab Light;
+  font-family: Roboto Light;
   margin-top: 20px;
   transition: 500ms;
 }
@@ -138,6 +127,13 @@ main {
 .more {
   color: black;
   font-size: 1.3rem;
+  font-family: Roboto Light;
+}
+
+.keyword {
+  font-family: Roboto Slab Bold;
+  border-bottom: 1px solid #FDD835;
+  box-shadow: inset 0 -2px #FDD835;
 }
 
 .social {
@@ -152,7 +148,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Roboto Mono;
+  font-family: Roboto Slab Thin;
   text-align: center;
   font-size: 1em;
 }
