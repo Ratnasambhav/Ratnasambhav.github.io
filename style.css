@@ -69,6 +69,7 @@ main {
 .skills {
   font-family: Roboto Slab Light;
   font-size: 1.5rem;
+  line-height: 2rem;
   margin: 25px 20vw;
   padding: 0 10px;
   border-top: 1px solid black;
