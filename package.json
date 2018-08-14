@@ -1,0 +1,36 @@
+{
+  "name": "ratnasambhav.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratnasambhav/Ratnasambhav.github.io.git"
+  },
+  "keywords": [
+    "React",
+    "Next.js",
+    "Styled Components"
+  ],
+  "author": "Ratnasambhav Priyadarshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ratnasambhav/Ratnasambhav.github.io/issues"
+  },
+  "homepage": "https://github.com/Ratnasambhav/Ratnasambhav.github.io#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-flip-move": "^3.0.2",
+    "styled-components": "^3.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
+}
