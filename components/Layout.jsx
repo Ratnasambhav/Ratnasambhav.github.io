@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import styled, { injectGlobal } from 'styled-components';
@@ -7,12 +7,14 @@ import Footer from './Footer';
 
 injectGlobal`
   body {
-    margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+    background-color: #E8EBEC;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
   }
 
-  @import url('https://fonts.googleapis.com/css?family=Rokkitt:700');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 `;
 
 const Main = styled.div`
@@ -22,7 +24,7 @@ const Main = styled.div`
 `;
 
 const Layout = ({ children, title = '\\RP' }) => (
-  <Fragment>
+  <>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -33,7 +35,7 @@ const Layout = ({ children, title = '\\RP' }) => (
       {children}
     </Main>
     <Footer />
-  </Fragment>
+  </>
 );
 
 Layout.propTypes = {
