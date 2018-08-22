@@ -9,6 +9,8 @@ injectGlobal`
   body {
     padding: 0;
     margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: #E8EBEC;
     font-family: 'Roboto', sans-serif;
     color: #222;
@@ -18,12 +20,16 @@ injectGlobal`
 `;
 
 const Main = styled.div`
-  width: 100vw;
+  max-width: 960px;
   padding: 0;
-  margin: 0;
+  margin: 100px auto;
+
+  @media (max-width: 959px) {
+    width: 95%;
+  }
 `;
 
-const Layout = ({ children, title = '\\RP' }) => (
+const Layout = ({ children, title = 'Ratnasambhav' }) => (
   <>
     <Head>
       <title>{title}</title>

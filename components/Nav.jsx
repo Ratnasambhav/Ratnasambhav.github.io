@@ -8,6 +8,10 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: flex-end;
   margin: 20px auto;
+
+  @media (max-width: 960px) {
+    width: 98%;
+  }
 `;
 
 const Logo = styled.a`
@@ -16,9 +20,10 @@ const Logo = styled.a`
   font-size: 20px;
   font-weight: 400;
   padding: 0 2px;
+  box-shadow: 0 2px 0 0 #222;
   transition: box-shadow 150ms ease-in;
   &:hover {
-    box-shadow: 0 4px 0 0px #222;
+    box-shadow: 0 4px 0 0px goldenrod;
   }
 `;
 
@@ -27,9 +32,10 @@ const NavLink = styled.a`
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
+  box-shadow: 0 2px 0 0 #222;
   transition: box-shadow 150ms ease-in;
   &:hover {
-    box-shadow: 0 2px 0 0 #222;
+    box-shadow: 0 4px 0 0 goldenrod;
   }
 `;
 
@@ -37,7 +43,7 @@ export default () => (
   <Nav>
     <Link href="/">
       <Logo href="/">
-        Ratnasambhav<br />Priyadarshi
+        Ratnasambhav <br /> Priyadarshi
       </Logo>
     </Link>
     <Link prefetch href="/blog">

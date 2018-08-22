@@ -1,8 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import HeroSection from '../components/HeroSection';
+import ProjectSection from '../components/ProjectSection';
 
 export default () => (
-  <Layout title="\\rp | Home">
-    <p>Hello</p>
+  <Layout title="Home | Ratnasambhav Priyadarshi">
+    <HeroSection />
+    <ProjectSection />
   </Layout>
 );

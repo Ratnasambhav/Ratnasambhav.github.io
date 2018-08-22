@@ -3,9 +3,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const Footer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
 `;
 
 const FooterLink = styled.a`
@@ -15,15 +13,15 @@ const FooterLink = styled.a`
 export default () => (
   <Footer>
     Made with&nbsp;
-    <Link to="https://nextjs.org">
+    <Link href="https://nextjs.org">
       <FooterLink href="https://nextjs.org">Next.js</FooterLink>
     </Link>
     ,&nbsp;
-    <Link to="https://www.styled-components.com/">
+    <Link href="https://www.styled-components.com/">
       <FooterLink href="https://www.styled-components.com/">styled-components</FooterLink>
     </Link>
     &nbsp;&&nbsp;
-    <Link to="https://reactjs.org">
+    <Link href="https://reactjs.org">
       <FooterLink href="https://reactjs.org">React</FooterLink>
     </Link>
   </Footer>
