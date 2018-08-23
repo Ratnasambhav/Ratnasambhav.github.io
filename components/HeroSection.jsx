@@ -23,6 +23,7 @@ const SubHeroText = styled.p`
   color: #222;
   padding: 0;
   margin: 20px 0 0 0;
+  max-width: 500px;
 
   @media (max-width: 450px) {
     font-size: 18px;

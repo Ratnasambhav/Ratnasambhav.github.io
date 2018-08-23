@@ -19,7 +19,7 @@ const Logo = styled.a`
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
-  padding: 0 2px;
+  padding: 0 4px;
   box-shadow: 0 2px 0 0 #222;
   transition: box-shadow 150ms ease-in;
   &:hover {
@@ -33,6 +33,7 @@ const NavLink = styled.a`
   font-size: 20px;
   font-weight: 400;
   box-shadow: 0 2px 0 0 #222;
+  padding: 0 4px;
   transition: box-shadow 150ms ease-in;
   &:hover {
     box-shadow: 0 4px 0 0 goldenrod;
