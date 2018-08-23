@@ -2,16 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeroText = styled.p`
+  font-size: 40px;
   font-weight: 700;
-  font-size: 50px;
-  color: #222;
-  padding: 0;
   margin: 0;
-
   @media (max-width: 450px) {
     font-size: 35px;
   }
-
   @media (max-width: 320px) {
     font-size: 30px;
   }
@@ -19,11 +15,8 @@ const HeroText = styled.p`
 
 const SubHeroText = styled.p`
   font-weight: 300;
-  font-size: 25px;
-  color: #222;
-  padding: 0;
-  margin: 20px 0 0 0;
-
+  max-width: 500px;
+  margin-top: 20px;
   @media (max-width: 450px) {
     font-size: 18px;
   }
