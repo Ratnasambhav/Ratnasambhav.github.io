@@ -1,9 +1,20 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const footerEnter = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 const Footer = styled.div`
   text-align: center;
+  opacity: 0;
+  animation: ${footerEnter} 500ms 1500ms ease-out forwards;
 `;
 
 const FooterLink = styled(Link)`
@@ -13,17 +24,11 @@ const FooterLink = styled(Link)`
 export default () => (
   <Footer>
     Made with&nbsp;
-    <Link href="https://gatsbyjs.org/">
-      <FooterLink href="https://gatsbyjs.org/">Gatsby</FooterLink>
-    </Link>
+    <FooterLink to="https://gatsbyjs.org/">Gatsby</FooterLink>
     ,&nbsp;
-    <Link href="https://www.styled-components.com/">
-      <FooterLink href="https://www.styled-components.com/">styled-components</FooterLink>
-    </Link>
+    <FooterLink to="https://www.styled-components.com/">styled-components</FooterLink>
     ,&nbsp;
-    <Link href="https://reactjs.org">
-      <FooterLink href="https://reactjs.org">React</FooterLink>
-    </Link>
+    <FooterLink to="https://reactjs.org">React</FooterLink>
     &nbsp;& ❤️.
   </Footer>
 );
