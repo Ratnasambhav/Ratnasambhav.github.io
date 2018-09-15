@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Nav from './Nav';
-import Footer from './Footer';
 
 const Main = styled.div`
   max-width: 960px;
@@ -15,11 +13,9 @@ const Main = styled.div`
 
 const Layout = ({ children }) => (
   <>
-    <Nav />
     <Main>
       {children}
     </Main>
-    <Footer />
   </>
 );
 
