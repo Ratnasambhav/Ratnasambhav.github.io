@@ -13,6 +13,6 @@ export default () => (
       <link rel="canonical" href="https://github.ratnasambhav.io" />
     </Helmet>
     <Hero />
-    {/* <Projects /> */}
+    <Projects />
   </Layout>
 );

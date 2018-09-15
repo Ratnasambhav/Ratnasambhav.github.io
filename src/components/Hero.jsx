@@ -16,9 +16,7 @@ const heroEnter = keyframes`
   }
 `;
 
-const HeroText = styled.p`
-  font-size: 40px;
-  font-weight: 700;
+const HeroText = styled.h1`
   margin: 0;
   opacity: 0;
   animation: ${heroEnter} 500ms 700ms ease-out forwards;
@@ -44,13 +42,8 @@ const SubHeroText = styled.p`
 
 export default () => (
   <div>
-    <HeroText appearAnimation="fade">
-      Hello
-      {/* Lorem */}
-    </HeroText>
     <HeroText>
-      I&apos;m Ratnasambhav Priyadarshi
-      {/* Amet, consectetur adipiscing */}
+      Hi, I&apos;m Ratnasambhav Priyadarshi.
     </HeroText>
     <SubHeroText>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ultrices dui sapien eget mi proin sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Feugiat in ante metus dictum at. Egestas sed sed risus pretium quam vulputate.
