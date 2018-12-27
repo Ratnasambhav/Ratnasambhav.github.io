@@ -1,3 +1,4 @@
 import React from 'react';
+import Container from '../components/container';
 
-export default () => <div>Hello Gatsby!</div>;
+export default () => <Container>Hello Gatsby!</Container>;
