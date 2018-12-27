@@ -1,14 +1,3 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import Layout from '../components/Layout';
 
-export default () => (
-  <Layout>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Ratnasambhav Priyadarshi - Official Website" />
-      <title>Home | Ratnasambhav Priyadarshi</title>
-      <link rel="canonical" href="https://github.ratnasambhav.io" />
-    </Helmet>
-  </Layout>
-);
+export default () => <div>Hello Gatsby!</div>;
