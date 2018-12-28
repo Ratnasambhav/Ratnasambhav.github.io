@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 10px;
+  border-top: 3px solid #000;
+  padding-top: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  font-family: 'LetterVINC';
+  font-size: 15px;
+  text-decoration: none;
+  color: #545454;
+  float: right;
+}
+
+.navLink:hover {
+  color: #000;
+}

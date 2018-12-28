@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'LetterGothicFS';
+  src: url('../../static/LetterGothicFS-ExtraBold.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LetterVINC';
+  src: url('../../static/LetterVINC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
