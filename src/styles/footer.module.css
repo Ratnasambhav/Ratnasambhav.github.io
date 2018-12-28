@@ -4,16 +4,18 @@
   padding-top: 9px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.navLink {
+.footerLink {
   font-family: 'LetterVINC';
   font-size: 15px;
   text-decoration: none;
   color: #545454;
   float: right;
+  margin: 0 2rem 0.5rem 2rem;
 }
 
-.navLink:hover {
+.footerLink:hover {
   color: #000;
 }

@@ -1,0 +1,17 @@
+.hero {
+  margin: 60px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroHeader {
+  font-size: 20px;
+  font-family: LetterGothicFS;
+}
+
+.heroText {
+  font-size: 18px;
+  font-family: LetterVINC;
+  text-align: left;
+}

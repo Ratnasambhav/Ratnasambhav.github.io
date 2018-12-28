@@ -32,10 +32,14 @@
 
 .navLink {
   font-family: 'LetterVINC';
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   color: #545454;
   float: right;
+}
+
+.navLink::before {
+  content: '\21e8';
 }
 
 .navLink:hover {
