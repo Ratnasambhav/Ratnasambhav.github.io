@@ -53,6 +53,13 @@ body {
   text-align: left;
 }
 
+.hero--header {
+  font-family: 'Letter Gothic FS ExBd';
+  font-size: 40px;
+  margin: 170px auto;
+  text-align: center;
+}
+
 @media screen and (max-width: 599px) {
   .hero {
     width: auto;
