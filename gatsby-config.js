@@ -1,3 +1,0 @@
-plugins: [
-  `gatsby-plugin-sass`
-]
