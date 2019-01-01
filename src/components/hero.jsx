@@ -3,9 +3,9 @@ import style from '../styles/hero.module.css';
 
 export default () => (
   <div className={style.hero}>
-    <h1 className={style.heroHeader}>Hello.</h1>
+    <h1 className={style.heroHeader}>Hello, I&apos;m Ratnasambhav Priyadarshi.</h1>
     <p className={style.heroText}>
-      My name is Ratnasambhav Priyadarshi. I&apos;m studying Computer Science at VIT Vellore but I&apos;m from Jamshedpur. Right now, I&apos;m also working as an intern at Amazon in Banglore.
+      I&apos;m studying Computer Science at VIT Vellore but I&apos;m from Jamshedpur. Right now, I&apos;m also working as an intern at Amazon in Banglore.
       <br />
       <br />
       I love to code, especially web development. I really like learning new programming languages, comparing them with the languages I already know and seen how they work and why they were created in the first place. JavaScript, Python and Elixer are my favourite languages.
