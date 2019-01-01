@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 export default () => (
   <div className="navbar">
-    <a href="/" className="navbar--logo">Ratnasambhav Priyadarshi</a>
-    <a href="/blog" className="navbar--link">Blog</a>
+    <Link to="/" className="navbar--logo">RP</Link>
+    <Link to="/blog" className="navbar--link">Blog</Link>
   </div>
 );
