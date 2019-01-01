@@ -1,7 +1,6 @@
 {
   "name": "ratnasambhav.github.io",
-  "private": true,
-  "description": "My website",
+  "description": "My website and blog!",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -9,19 +8,15 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "gatsby": "^2.0.76",
-    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby": "^2.0.79",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-dom": "^16.5.1"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
-  }
+    "gh-pages": "^2.0.1"
+  },
+  "homepage": "ratnasambhav.github.io"
 }
