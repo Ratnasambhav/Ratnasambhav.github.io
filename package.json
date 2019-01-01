@@ -1,0 +1,49 @@
+{
+  "name": "ratnasambhav.github.io",
+  "version": "1.0.0",
+  "description": "My personal blog and website",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratnasambhav/Ratnasambhav.github.io.git"
+  },
+  "author": "Ratnasambhav Priyadarshi (ratnasambhav@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ratnasambhav/Ratnasambhav.github.io/issues"
+  },
+  "homepage": "https://ratnasambhav.github.io/",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.0",
+    "gh-pages": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

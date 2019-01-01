@@ -1,0 +1,63 @@
+body
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
+  background-color: #E0E0E0
+
+.container
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding: 20px 10px 0 10px
+  margin: 0 auto
+  max-width: 900px
+
+.navbar
+  border-bottom: 3px solid #000
+  padding-bottom: 9px
+  display: flex
+  justify-content: space-between
+  &--logo
+    color: #000
+    font-family: 'Letter Gothic FS ExBd'
+    font-size: 22px
+    line-height: 17px
+    text-decoration: none
+    text-transform: uppercase
+  &--link
+    font-family: 'Letter vince'
+    font-size: 16px
+    text-decoration: none
+    color: #545454
+    &::before
+      content: '\21e8'
+    &:hover
+      color: #000
+
+.footer
+  margin-top: 10px
+  border-top: 3px solid #000
+  padding-top: 9px
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  &--link
+    font-family: 'Letter vince'
+    font-size: 15px
+    text-decoration: none
+    color: #545454
+    float: right
+    margin: 0 2rem 0.5rem 2rem
+    &:hover
+      color: #000
+
+
+@font-face
+  font-family: 'Letter vince'
+  src: url('./assets/Lettervince-Regular.woff2') format('woff2'), url('./assets/Lettervince-Regular.woff') format('woff')
+  font-weight: bold
+  font-style: normal
+
+@font-face
+  font-family: 'Letter Gothic FS ExBd'
+  src: url('./assets/LetterGothicFS-ExtraBold.woff2') format('woff2'), url('./assets/LetterGothicFS-ExtraBold.woff') format('woff')
+  font-weight: 800
+  font-style: normal
