@@ -12,11 +12,13 @@
   },
   "dependencies": {
     "gatsby": "^2.0.79",
+    "gatsby-plugin-react-helmet": "^3.0.5",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
   },
-  "homepage": "ratnasambhav.github.io"
+  "homepage": "https://ratnasambhav.github.io"
 }
