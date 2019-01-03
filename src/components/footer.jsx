@@ -1,10 +1,19 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 export default () => (
   <div className="footer">
-    <a href="https://github.com/Ratnasambhav" className="footer--link">Github</a>
-    <a href="https://linkedin.com/in/Ratnasambhav" className="footer--link">LinkedIn</a>
-    <a href="https://twitter.com/ratnasambhav732" className="footer--link">Twitter</a>
-    <a href="mailto:ratnasambhav@gmail.com" className="footer--link">Mail</a>
+    <OutboundLink href="https://github.com/Ratnasambhav" className="footer--link">
+      Github
+    </OutboundLink>
+    <OutboundLink href="https://linkedin.com/in/Ratnasambhav" className="footer--link">
+      LinkedIn
+    </OutboundLink>
+    <OutboundLink href="https://twitter.com/ratnasambhav732" className="footer--link">
+      Twitter
+    </OutboundLink>
+    <OutboundLink href="mailto:ratnasambhav@gmail.com" className="footer--link">
+      Mail
+    </OutboundLink>
   </div>
 );
