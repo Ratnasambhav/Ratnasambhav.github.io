@@ -1,0 +1,28 @@
+.blog
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: 100vh
+  width: 100vw
+  &--header
+    font-family: 'Letter Gothic FS ExBd'
+    font-size: 40px
+    margin-bottom: 40px
+  &--link
+    font-family: 'Letter vince'
+    font-size: 16px
+    text-decoration: none
+    color: #545454
+    &::before
+      content: ""
+      display: block
+      background-image: url("./assets/arrow.svg")
+      background-repeat: no-repeat
+      width: 25px
+      height: 25px
+      position: relative
+      top: 18.5px
+      right: 20px
+    &:hover
+      color: #000

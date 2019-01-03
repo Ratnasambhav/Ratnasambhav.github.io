@@ -1,13 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Container from '../components/Container'
+import { Link } from 'gatsby';
 
 export default () => (
-  <Container>
+  <div className="blog">
     <Helmet>
       <title>Blog | Ratnasambhav Priyadarshi</title>
       <link rel="canonical" href="https://ratnasambhav.github.io/blog" />
     </Helmet>
-    <p className="hero--header">Coming soon...</p>
-  </Container>
+    <p className="blog--header">Coming soon...</p>
+    <Link to="/" className="blog--link">Home</Link>
+  </div>
 )

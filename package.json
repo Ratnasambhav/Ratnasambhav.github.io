@@ -5,12 +5,14 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "start": "npm run develop",
+    "start": "concurrently \"npm run develop\" \"npm run sass\"",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "sass": "sass src/sass/style.sass:src/sass/style.css -s compressed --watch"
   },
   "dependencies": {
+    "concurrently": "^4.1.0",
     "gatsby": "^2.0.79",
     "gatsby-plugin-google-analytics": "^2.0.8",
     "gatsby-plugin-react-helmet": "^3.0.5",

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <div className="hero">
-    <p className="hero--header">Hi there, I&apos;m Ratnasmabhav Priyadarshi.</p>
+    <p className="hero--header">Hi, I&apos;m Ratnasmabhav Priyadarshi.</p>
     <p className="hero--text">I&apos;m studying Computer Science at VIT Vellore. Right now, I&apos;m also working as an intern at Amazon in Banglore.</p>
     <br/>
     <p className="hero--text">I love to code, especially web development. I really like learning new programming languages, comparing them with the languages I already know and seen how they work and why they were created in the first place. JavaScript, Python and Elixer are my favourite languages.</p>
