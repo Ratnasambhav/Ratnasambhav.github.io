@@ -15,6 +15,10 @@ export default () => (
       <meta property="og:url" content="https://ratnasambhav.github.io/blog" />
       <meta property="og:site_name" content="ratnasambhav.github.io" />
       <meta property="og:type" content="website" />
+      <meta name="twitter:title" content="Ratnasambhav Priyadarshi" />
+      <meta name="twitter:description" content="Blog written by Ratnasambhav Priyadarshi" />
+      <meta name="twitter:image" content="https://ratnasambhav.github.io/icons/icon-512x512.png" />
+      <meta name="twitter:card" content="summary_large_image" />
     </Helmet>
     <p className="blog--header">Coming soon...</p>
     <Link to="/" className="blog--link">Home</Link>
