@@ -4,9 +4,9 @@ import Navbar from './Navbar';
 import '../sass/style.css';
 
 export default ({ children }) => (
-  <div className="container">
+  <main className="container">
     <Navbar />
     {children}
     <Footer />
-  </div>
+  </main>
 );

@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "concurrently \"npm run develop\" \"npm run sass\"",
+    "dev": "gatsby develop",
+    "start": "concurrently \"npm run dev\" \"npm run sass\"",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b master",
