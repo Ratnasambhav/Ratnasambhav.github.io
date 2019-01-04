@@ -1,0 +1,29 @@
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(NavAndFooter-Appear)
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
++keyframes(HeroText-Appear)
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+    transform: translateY(0%)
+
++keyframes(HeroHeader-Appear)
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+    transform: translateY(0%)
