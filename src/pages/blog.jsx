@@ -9,9 +9,12 @@ export default () => (
       <link rel="canonical" href="https://ratnasambhav.github.io/blog" />
       <meta property="og:title" content="Ratnasambhav Priyadarshi" />
       <meta property="og:description" content="Blog written by Ratnasambhav Priyadarshi" />
-      <meta property="og:image" content="https://ratnasambhav.github.io/icons/icon-512-512.png" />
+      <meta property="og:image" content="https://ratnasambhav.github.io/icons/icon-512x512.png" />
+      <meta property="og:image:width" content="512" />
+      <meta property="og:image:height" content="512" />
       <meta property="og:url" content="https://ratnasambhav.github.io/blog" />
       <meta property="og:site_name" content="ratnasambhav.github.io" />
+      <meta property="og:type" content="website" />
     </Helmet>
     <p className="blog--header">Coming soon...</p>
     <Link to="/" className="blog--link">Home</Link>
