@@ -6,7 +6,7 @@ export default () => (
     <span className="hero--header">Ratnasmabhav Priyadarshi</span>
     <span className="hero--text">
       I&apos;m studying Computer Science at VIT Vellore.
-      Right now, I&apos;m also an intern at Amazon in Banglore.
+      Right now, I&apos;m also an intern at Amazon.
       <br />
       <br />
       I love making things with code and experimenting with different programming languages.

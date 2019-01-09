@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 
-const SEOTags = ({
+const Head = ({
   title,
   URL,
   description,
@@ -30,7 +30,7 @@ const SEOTags = ({
   </Helmet>
 );
 
-SEOTags.propTypes = {
+Head.propTypes = {
   title: PropTypes.string.isRequired,
   URL: PropTypes.string.isRequired,
   description: PropTypes.string,
@@ -39,11 +39,11 @@ SEOTags.propTypes = {
   imageHeight: PropTypes.string,
 };
 
-SEOTags.defaultProps = {
+Head.defaultProps = {
   description: 'The blog of Ratnasambhav Priyadarshi',
   imageURL: 'https://ratnasambhav.github.io/icons/icon-512x512.png',
   imageWidth: '512',
   imageHeight: '512',
 };
 
-export default SEOTags;
+export default Head;
