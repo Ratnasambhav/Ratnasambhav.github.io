@@ -1,28 +1,32 @@
 .blog
+  margin: 60px 0
   display: flex
   flex-direction: column
   align-items: center
-  justify-content: center
-  height: 100vh
-  width: 100vw
-  &--header
-    font-family: 'Letter Gothic FS ExBd'
-    font-size: 40px
-    margin-bottom: 40px
-  &--link
-    font-family: 'Letter vince'
-    font-size: 16px
-    text-decoration: none
-    color: #545454
-    &::before
-      content: ""
-      display: block
-      background-image: url("./assets/arrow.svg")
-      background-repeat: no-repeat
-      width: 25px
-      height: 25px
-      position: relative
-      top: 18.5px
-      right: 20px
-    &:hover
-      color: #000
+  .post
+    max-width: 600px
+    border: 3px solid #000
+    margin-bottom: 60px
+    padding: 20px 20px 0px 20px
+    transform: translateY(-10%)
+    opacity: 0
+    animation: HeroText-Appear 300ms cubic-bezier(0.39, 0.58, 0.57, 1) 250ms forwards
+    &--info
+      border-bottom: 3px solid #000
+      &--title
+        font-family: 'Letter Gothic FS ExBd'
+        font-size: 40px
+        color: #000
+        text-decoration: none
+        text-align: justify
+        &:hover
+          text-decoration: underline
+      &--date
+        font-family: 'Letter vince'
+        font-size: 13px
+        justify-self: flex-end
+        color: #7b7b7b
+    &--excerpt
+      font-family: 'Letter vince'
+      font-size: 18px
+      text-align: justify
