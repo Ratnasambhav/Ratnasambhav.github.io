@@ -11,8 +11,7 @@ export default function Template({ data }) {
         title={post.frontmatter.title}
         URL={post.frontmatter.path}
       />
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div dangerouslySetInnerHTML={{ __html: post.html }} className="blogPost" />
     </Container>
   );
 }

@@ -20,6 +20,7 @@ export default function Blog({ data }) {
                 <div className="post--info">
                   <Link className="post--info--title" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                   <p className="post--info--date">{post.frontmatter.date}</p>
+                  <div className="post--info--underline" />
                 </div>
                 <p className="post--excerpt">{post.excerpt}</p>
               </div>

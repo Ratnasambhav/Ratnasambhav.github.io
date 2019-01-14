@@ -30,10 +30,21 @@ module.exports = {
         name: 'pages',
       },
     },
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 650,
+              quality: 100,
+              wrapperStyle: 'max-width: 100vw; width: 100%; height: auto; display: block; min-height: 300px; position: relative',
+              withWepb: true,
+            },
+          },
+        ],
       },
     },
   ],
