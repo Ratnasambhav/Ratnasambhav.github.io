@@ -1,39 +1,44 @@
 {
-  "name": "ratnasambhav.github.io",
-  "description": "My website and blog!",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "gatsby develop",
-    "start": "concurrently \"npm run dev\" \"npm run sass\"",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "sass": "sass src/sass/style.sass:src/sass/style.css -s compressed --watch"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "gatsby": "^2.0.89",
-    "gatsby-plugin-catch-links": "^2.0.9",
-    "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.20",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sharp": "^2.0.17",
-    "gatsby-remark-images": "^3.0.1",
-    "gatsby-source-filesystem": "^2.0.13",
-    "gatsby-transformer-remark": "^2.2.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "@reach/menu-button": "^0.10.1",
+    "gatsby": "^2.20.25",
+    "gatsby-plugin-catch-links": "^2.2.3",
+    "gatsby-plugin-google-analytics-gdpr": "0.0.5",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-react-head": "^1.1.0",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-remark": "^2.7.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-head": "^3.3.0"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4"
   },
-  "homepage": "https://ratnasambhav.github.io"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ratnasambhav/Ratnasambhav.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }

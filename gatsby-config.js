@@ -1,5 +1,31 @@
 module.exports = {
+  siteMetadata: {
+    title: `Ratnasambhav Priyadarshi`,
+  },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-react-head`,
+    {
+      resolve: `gatsby-plugin-google-analytics-gdpr`,
+      options: {
+        trackingId: "UA-164298693-1",
+        reactGaOptions: {
+            debug: true,
+            gaOptions: {
+                sampleRate: 10
+            }
+        }
+      },
+    },
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -9,43 +35,12 @@ module.exports = {
         dir: 'ltr',
         lang: 'en-US',
         start_url: '/',
-        background_color: '#e0e0e0',
-        theme_color: '#e0e0e0',
+        background_color: 'rgb(34, 33, 41)',
+        theme_color: '#ee72f1',
         display: 'standalone',
-        icon: 'src/sass/assets/logo.png',
+        icon: 'src/styles/Logo.png',
       },
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-131670283-1',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
-    },
-    'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 650,
-              quality: 100,
-              wrapperStyle: 'max-width: 100vw; width: 100%; height: auto; display: block; min-height: 300px; position: relative',
-              withWepb: true,
-            },
-          },
-        ],
-      },
-    },
+    `gatsby-plugin-offline`
   ],
-};
+}
