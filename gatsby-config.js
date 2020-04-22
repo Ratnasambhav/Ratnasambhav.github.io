@@ -13,16 +13,11 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-head`,
+    `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-google-analytics-gdpr`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-164298693-1",
-        reactGaOptions: {
-            debug: true,
-            gaOptions: {
-                sampleRate: 10
-            }
-        }
+        trackingId: 'UA-164298693-1',
       },
     },
     `gatsby-plugin-sharp`,
