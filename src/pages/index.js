@@ -14,7 +14,7 @@ export default () => (
     <div className="intro">
       <h1>Hi! <br/> I'm Ratnasambhav Priyadarshi</h1>
       <p>
-        I'm currently working at Amazon Web Services in Banglore. I got my degree in Compiter Science from VIT Vellore.
+        I'm currently working at Amazon Web Services in Banglore. I got my degree in Computer Science from VIT Vellore.
       </p>
       <p>
         I love web developemnt and code mainly in Python and JavaScript. I am trying to learn the Rust programming language along with some game development. This website was built to serve as a blog where I plan to write about anything I find interesting.
