@@ -5,7 +5,7 @@ import Head from '../../components/Head'
 
 import postData from '../../components/postData'
 
-const { link, title, dateCreated, author, tags } = postData[0]
+const { link, title, dateCreated, author, tags } = postData[1]
 
 export default () => (
   <Layout>

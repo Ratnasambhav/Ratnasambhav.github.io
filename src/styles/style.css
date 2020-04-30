@@ -14,14 +14,16 @@
   font-family: Fira Code;
   font-style: normal;
   font-weight: 400;
-  src: url(62da0ac51db1e4a3a4d57b9154a344fc.woff) format("woff")
+  src: url(62da0ac51db1e4a3a4d57b9154a344fc.woff) format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Fira Code;
   font-style: normal;
   font-weight: 800;
-  src: url(2bf08001f42c34e30e1de9d2eb81aead.woff) format("woff")
+  src: url(2bf08001f42c34e30e1de9d2eb81aead.woff) format("woff");
+  font-display: swap;
 }
 
 .button-container {
@@ -1248,4 +1250,9 @@ pre[data-line] {
 .intro__links a svg {
   max-width: 20px;
   min-width: 20px;
+}
+
+.blog-cover-image {
+  border: 2px solid var(--accent);
+  padding: 4px;
 }
