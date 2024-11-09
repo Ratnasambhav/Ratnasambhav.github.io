@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{Q3Vq:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),o=t.n(a),r=t("7oih");e.default=function(){return o.a.createElement(r.a,null,o.a.createElement("h1",null,"Micro Journal"))}}}]);
-//# sourceMappingURL=component---src-pages-micro-js-bf837c27c19d8333968b.js.map
